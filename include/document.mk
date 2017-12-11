@@ -18,12 +18,12 @@
 .epsi.xbb :
 	extractbb $<
 
-#使わなくなったので
+# 使わなくなったので
 #.pdf.ps :
 #	pdf2ps $<
 
 # 日本語フォントで問題発生
-# .dot.pdf :
+#.dot.pdf :
 #	dot -Tpdf $< -o $@
 
 .svg.ps :
